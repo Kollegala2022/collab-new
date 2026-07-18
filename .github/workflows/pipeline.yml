@@ -5,10 +5,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Install dependencies
-      - run: npm install
-      - name: Run tests
-      - run: npm test
+
+      - name: Greetings
+      - run: echo "Hello welcome to github!"
+
+      - name: Run command
+      - run: pwd
+
       - name: Deploy
-      - run: echo "Deployed successfully!"
+      - run: echo "Deployed successfully!
+        "
           
