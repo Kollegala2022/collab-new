@@ -13,5 +13,5 @@ jobs:
         run: pwd
 
       - name: Deploy
-        run: echo "Deployed successfull"
+        run: echo "successfull"
           
